@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container" id="container">
+		<View class="topView" id="topView">
+			<Button id="btn1"></Button>
+		</View>
+		<TableView class="tableView" id="tableView"/>
+		<ScrollView class="scroll1" id="scroll1">
+			<Label  id="lblname"/>
+			<TextField id="txtcode"/>
+			<Button id="add_button"/>
+			<View id="demo_view"/>
+		</ScrollView>
+	</Window>
+</Alloy>

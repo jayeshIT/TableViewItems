@@ -1,0 +1,14 @@
+"#win_home.tss":
+{
+	backgroundColor: 'white'
+},
+"#tblView":
+{
+	top: 0,
+	left: 0,
+	right: 0,
+	footerTitle: '',
+	separatorColor: 'gray',
+	separatorStyle: 1,
+	backgroundColor: 'white'
+}

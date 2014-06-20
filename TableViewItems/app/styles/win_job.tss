@@ -1,0 +1,93 @@
+".container": {
+	backgroundColor: "white"
+},
+"#topView":
+{
+	top: 0,
+	left: 0,
+	right: 0,
+	height: 60,
+	backgroundColor: 'teal'
+},
+"#btn1":
+{
+	title: 'Clode',
+	left: 10,
+	height: 30
+},
+".tableView":
+{
+	top: 44,
+	left: 0,
+	right: 0,
+	separatorColor: 'black',
+	separatorStyle: 1,
+	backgroundColor: 'white',
+	footerTitle: '',
+	separatorInsets:
+	{
+		left: 0
+	}
+},
+"#scroll1":
+{
+	left: 10,
+	right: 10,
+	backgroundColor: 'white',
+	Height: Ti.UI.SIZE,
+	layout: 'vertical',
+	contentWidth: Ti.UI.FILL,
+	contentHeight: Ti.UI.SIZE
+},
+"#lblname":
+{
+	top: 10,
+	left: 10,
+	right: 10,
+	text: 'Enter Your Code.',
+	font:
+	{
+		fontSize: 15,
+		fontWeight: "bold"
+	},
+	color: "black",
+	textAlign: "center",
+	height: 50
+},
+"#txtcode":
+{
+	top: 10,
+	left: 10,
+	right: 10,
+	height: 40,
+	hintText: "E-mail:",
+	autocorrect: false,
+	color: "black",
+	borderColor: "gray",
+	borderRadius: 5,
+	borderWidth: 1.5,
+	paddingLeft: "4",
+	backgroundColor: "white",
+	keyboardType: Titanium.UI.KEYBOARD_EMAIL,
+	appearance: Ti.UI.KEYBOARD_APPEARANCE_ALERT,
+	returnKeyType: Titanium.UI.RETURNKEY_DONE
+},
+"#add_button":
+{
+	top: 10,
+	width: 80,
+	title: 'Add',
+	backgroundColor: 'black',
+	color: 'white',
+	style: 1,
+	height: 30
+},
+"#demo_view":
+{
+	top: 10,
+	left: 0,
+	right: 0,
+	height: 5,
+	backgroundColor: 'rtransparent'
+}
+
