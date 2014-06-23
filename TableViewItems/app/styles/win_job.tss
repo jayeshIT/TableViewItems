@@ -20,6 +20,7 @@
 	top: 44,
 	left: 0,
 	right: 0,
+	bottom: 60,
 	separatorColor: 'black',
 	separatorStyle: 1,
 	backgroundColor: 'white',
@@ -37,7 +38,8 @@
 	Height: Ti.UI.SIZE,
 	layout: 'vertical',
 	contentWidth: Ti.UI.FILL,
-	contentHeight: Ti.UI.SIZE
+	contentHeight: Ti.UI.SIZE,
+	borderColor: 'red'
 },
 "#lblname":
 {
@@ -60,7 +62,7 @@
 	left: 10,
 	right: 10,
 	height: 40,
-	hintText: "E-mail:",
+	hintText: "Code name:",
 	autocorrect: false,
 	color: "black",
 	borderColor: "gray",
@@ -89,5 +91,13 @@
 	right: 0,
 	height: 5,
 	backgroundColor: 'rtransparent'
+},
+"#done_button":
+{
+	bottom: 5,
+	right: 10,
+	heoight: 30,
+	width: 62,
+	title: 'DONE'
 }
 

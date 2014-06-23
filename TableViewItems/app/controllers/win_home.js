@@ -1,4 +1,5 @@
 var joblist = [];
+//var jobname = ['Tyres', 'Tubes', 'Pumps', 'Breaks', 'Cluctches', 'Karburators', 'SparkPlugs', 'Drummers', 'Motors', 'Rorators', 'Engines', 'Chechis', 'Couplees'];
 var jobname = ['Tyres', 'Tubes', 'Pumps', 'Breaks', 'Cluctches', 'Karburators', 'SparkPlugs', 'Drummers', 'Motors', 'Rorators', 'Engines', 'Chechis', 'Couplees'];
 for (var i = 0; i < jobname.length; i++) {
 
